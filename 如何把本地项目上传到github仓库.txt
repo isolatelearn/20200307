@@ -1,0 +1,27 @@
+如何将本地项目上传到Git仓库中
+1.打开GitHub，新建一个仓库用来存放项目
+2.复制仓库http链接（
+https://github.com/isolatelearn/20200306.git）
+3.找到要上传的项目，比如  testSnake 就是我要上传到仓库的文件
+4.在项目根目录右击，选择git命令窗口输入以下命令
+   1）. git init 初始化仓库，将这个目录变成git管理的仓库
+   2）. 然后使用git add .将文件添加到暂存区里去，注意后面你的 .
+   3）. 然后使用 git commit -m '描述内容'命令将文件提交到仓库 
+	---git Please tell me who you are解决方法 
+	所以解决方法是当出现这个上述提示后 接着补充
+	你在命令行中执行
+	git config --global user.email  "1393429727@qq.com" 
+	git config --global user.name  "isolatelearn"
+	输入完后再接着执行git commit 即可成功!
+   4）. 然后关联git仓库，因为此时git还不知道要将我们的项目添加到哪里去，加下来执行命令： git remote add origin 远程仓库地址
+	--Git 提示fatal: remote origin already exists 错误解决办法
+	一、先删除远程 Git 仓库
+	$ git remote rm origin
+	二、再添加远程 Git 仓库
+   5）.然后执行 git pull --rebase origin master 命令，将文件与远程仓库进行合并
+       一，第一次出现fatal: couldn't find remote ref master可忽略
+
+   6).然后将本地文件推送到github仓库中，使用命令：git push -u origin master 命令，这里会提示那你的GitHub用户的账号和密码，然后输入登录就可以了
+	一，git报错-fatal: HttpRequestException encountered.
+	二，点击下载安装 GCMW-1.14.0.exe	（https://github.com/Microsoft/Git-Credential-Manager-for-	Windows/releases/tag/v1.14.0）
+
