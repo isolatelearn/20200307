@@ -1,27 +1,27 @@
-ÈçºÎ½«±¾µØÏîÄ¿ÉÏ´«µ½Git²Ö¿âÖĞ
-1.´ò¿ªGitHub£¬ĞÂ½¨Ò»¸ö²Ö¿âÓÃÀ´´æ·ÅÏîÄ¿
-2.¸´ÖÆ²Ö¿âhttpÁ´½Ó£¨
-https://github.com/isolatelearn/20200306.git£©
-3.ÕÒµ½ÒªÉÏ´«µÄÏîÄ¿£¬±ÈÈç  testSnake ¾ÍÊÇÎÒÒªÉÏ´«µ½²Ö¿âµÄÎÄ¼ş
-4.ÔÚÏîÄ¿¸ùÄ¿Â¼ÓÒ»÷£¬Ñ¡ÔñgitÃüÁî´°¿ÚÊäÈëÒÔÏÂÃüÁî
-   1£©. git init ³õÊ¼»¯²Ö¿â£¬½«Õâ¸öÄ¿Â¼±ä³Égit¹ÜÀíµÄ²Ö¿â
-   2£©. È»ºóÊ¹ÓÃgit add .½«ÎÄ¼şÌí¼Óµ½Ôİ´æÇøÀïÈ¥£¬×¢ÒâºóÃæÄãµÄ .
-   3£©. È»ºóÊ¹ÓÃ git commit -m 'ÃèÊöÄÚÈİ'ÃüÁî½«ÎÄ¼şÌá½»µ½²Ö¿â 
-	---git Please tell me who you are½â¾ö·½·¨ 
-	ËùÒÔ½â¾ö·½·¨ÊÇµ±³öÏÖÕâ¸öÉÏÊöÌáÊ¾ºó ½Ó×Å²¹³ä
-	ÄãÔÚÃüÁîĞĞÖĞÖ´ĞĞ
-	git config --global user.email  "1393429727@qq.com" 
-	git config --global user.name  "isolatelearn"
-	ÊäÈëÍêºóÔÙ½Ó×ÅÖ´ĞĞgit commit ¼´¿É³É¹¦!
-   4£©. È»ºó¹ØÁªgit²Ö¿â£¬ÒòÎª´ËÊ±git»¹²»ÖªµÀÒª½«ÎÒÃÇµÄÏîÄ¿Ìí¼Óµ½ÄÄÀïÈ¥£¬¼ÓÏÂÀ´Ö´ĞĞÃüÁî£º git remote add origin Ô¶³Ì²Ö¿âµØÖ·
-	--Git ÌáÊ¾fatal: remote origin already exists ´íÎó½â¾ö°ì·¨
-	Ò»¡¢ÏÈÉ¾³ıÔ¶³Ì Git ²Ö¿â
+å¦‚ä½•å°†æœ¬åœ°é¡¹ç›®ä¸Šä¼ åˆ°Gitä»“åº“ä¸­
+1.æ‰“å¼€GitHubï¼Œæ–°å»ºä¸€ä¸ªä»“åº“ç”¨æ¥å­˜æ”¾é¡¹ç›®
+2.å¤åˆ¶ä»“åº“httpé“¾æ¥ï¼ˆ
+https://github.com/isolatelearn/20200306.gitï¼‰
+3.æ‰¾åˆ°è¦ä¸Šä¼ çš„é¡¹ç›®ï¼Œæ¯”å¦‚  testSnake å°±æ˜¯æˆ‘è¦ä¸Šä¼ åˆ°ä»“åº“çš„æ–‡ä»¶
+4.åœ¨é¡¹ç›®æ ¹ç›®å½•å³å‡»ï¼Œé€‰æ‹©gitå‘½ä»¤çª—å£è¾“å…¥ä»¥ä¸‹å‘½ä»¤
+   1ï¼‰. git init åˆå§‹åŒ–ä»“åº“ï¼Œå°†è¿™ä¸ªç›®å½•å˜æˆgitç®¡ç†çš„ä»“åº“
+   2ï¼‰. ç„¶åä½¿ç”¨git add .å°†æ–‡ä»¶æ·»åŠ åˆ°æš‚å­˜åŒºé‡Œå»ï¼Œæ³¨æ„åé¢ä½ çš„ .
+   3ï¼‰. ç„¶åä½¿ç”¨ git commit -m 'æè¿°å†…å®¹'å‘½ä»¤å°†æ–‡ä»¶æäº¤åˆ°ä»“åº“ 
+	---git Please tell me who you areè§£å†³æ–¹æ³• 
+	æ‰€ä»¥è§£å†³æ–¹æ³•æ˜¯å½“å‡ºç°è¿™ä¸ªä¸Šè¿°æç¤ºå æ¥ç€è¡¥å……
+	ä½ åœ¨å‘½ä»¤è¡Œä¸­æ‰§è¡Œ
+	git config --global user.email  "" 
+	git config --global user.name  ""
+	è¾“å…¥å®Œåå†æ¥ç€æ‰§è¡Œgit commit å³å¯æˆåŠŸ!
+   4ï¼‰. ç„¶åå…³è”gitä»“åº“ï¼Œå› ä¸ºæ­¤æ—¶gitè¿˜ä¸çŸ¥é“è¦å°†æˆ‘ä»¬çš„é¡¹ç›®æ·»åŠ åˆ°å“ªé‡Œå»ï¼ŒåŠ ä¸‹æ¥æ‰§è¡Œå‘½ä»¤ï¼š git remote add origin è¿œç¨‹ä»“åº“åœ°å€
+	--Git æç¤ºfatal: remote origin already exists é”™è¯¯è§£å†³åŠæ³•
+	ä¸€ã€å…ˆåˆ é™¤è¿œç¨‹ Git ä»“åº“
 	$ git remote rm origin
-	¶ş¡¢ÔÙÌí¼ÓÔ¶³Ì Git ²Ö¿â
-   5£©.È»ºóÖ´ĞĞ git pull --rebase origin master ÃüÁî£¬½«ÎÄ¼şÓëÔ¶³Ì²Ö¿â½øĞĞºÏ²¢
-       Ò»£¬µÚÒ»´Î³öÏÖfatal: couldn't find remote ref master¿ÉºöÂÔ
+	äºŒã€å†æ·»åŠ è¿œç¨‹ Git ä»“åº“
+   5ï¼‰.ç„¶åæ‰§è¡Œ git pull --rebase origin master å‘½ä»¤ï¼Œå°†æ–‡ä»¶ä¸è¿œç¨‹ä»“åº“è¿›è¡Œåˆå¹¶
+       ä¸€ï¼Œç¬¬ä¸€æ¬¡å‡ºç°fatal: couldn't find remote ref masterå¯å¿½ç•¥
 
-   6).È»ºó½«±¾µØÎÄ¼şÍÆËÍµ½github²Ö¿âÖĞ£¬Ê¹ÓÃÃüÁî£ºgit push -u origin master ÃüÁî£¬ÕâÀï»áÌáÊ¾ÄÇÄãµÄGitHubÓÃ»§µÄÕËºÅºÍÃÜÂë£¬È»ºóÊäÈëµÇÂ¼¾Í¿ÉÒÔÁË
-	Ò»£¬git±¨´í-fatal: HttpRequestException encountered.
-	¶ş£¬µã»÷ÏÂÔØ°²×° GCMW-1.14.0.exe	£¨https://github.com/Microsoft/Git-Credential-Manager-for-	Windows/releases/tag/v1.14.0£©
+   6).ç„¶åå°†æœ¬åœ°æ–‡ä»¶æ¨é€åˆ°githubä»“åº“ä¸­ï¼Œä½¿ç”¨å‘½ä»¤ï¼šgit push -u origin master å‘½ä»¤ï¼Œè¿™é‡Œä¼šæç¤ºé‚£ä½ çš„GitHubç”¨æˆ·çš„è´¦å·å’Œå¯†ç ï¼Œç„¶åè¾“å…¥ç™»å½•å°±å¯ä»¥äº†
+	ä¸€ï¼ŒgitæŠ¥é”™-fatal: HttpRequestException encountered.
+	äºŒï¼Œç‚¹å‡»ä¸‹è½½å®‰è£… GCMW-1.14.0.exe	ï¼ˆhttps://github.com/Microsoft/Git-Credential-Manager-for-	Windows/releases/tag/v1.14.0ï¼‰
 
